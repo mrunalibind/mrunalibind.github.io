@@ -1,33 +1,346 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/0244637c96.js" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mrunali Bind</title>
+	<link rel="icon" type="image/x-icon" href="/img/logotitle.png">
+	 
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <nav id="nav-menu">
-        <div id="nav_div">
-            <div>
-                <h1 id="name"><span>M</span>RUNALI</h1>
-            </div>
-            <div id="anc">
-                <h4>HOME</h4>
-                <h4>ABOUT</h4>
-                <h4>SKILLS</h4>
-                <h4>PROJECT</h4>
-                <h4>STATISTICS</h4>
-                <h4>CONTACT</h4>
-                <h4 id="resume">RESUME</h4>
-            </div>
-            <button class="my-button" id="my-button">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-    </nav>
+
+	<!---header--->
+	<header>
+		<a href="#" class="logo"><span style="color:  #C3073F;font-size:40px; font-family: 'Alkatra', cursive;">MRUNALI</span></a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="navbar">
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#about">ABOUT ME</a></li>
+			<li><a href="#services">SKILL</a></li>
+			<li><a href="#portfolio">PROJECT</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+			<!-- <li><button class="btnResume">Resume</button></li> -->
+			<li><button class="btnResume"><a href="./images/Professional.jpg" target="_blank"
+						onclick="window.open('https://drive.google.com/file/d/1Dg3WLZy9JsbWJNL8WhFl0QIHzsXEr8oo/view?usp=share_link');"
+						download="Mrunali-Bind-Resume">RESUME</a></button> </li>
+		</ul>
+	</header>
+
+	<!---home--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h4>Hello</h4>
+			<h1 style="font-size: 50px;">I'M Mrunali Bind</h1>
+			<h3>Full Stack Web Developer</h3>
+			<p>Creative thinker to achieve modern business requirements using technical solutions. Ability to develop
+				production-ready code using HTML, CSS, Javascript , Nodejs, Express, MongoDB, Aws, mongoDb_Atlas with impressive user experience.</p>
+			<a href="./images/Professional.jpg" target="_blank"
+				onclick="window.open('https://drive.google.com/file/d/1Dg3WLZy9JsbWJNL8WhFl0QIHzsXEr8oo/view?usp=share_link');"
+				download="Mrunali-Bind-Resume" class="btn">Resume</a>
+			<!-- <div class="picture">
+				<img src="./images/emile-perron-xrVDYZRGdw4-unsplash.jpg" width="100%" style="border: 3px solid  rgb(51, 151, 177)" />
+			</div> -->
+		</div>
+	</section>
+
+	<!---about--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<!-- <img src="img/about.gif"> -->
+			<img src="./images/Professional.jpg" width="250px"  />
+		</div>
+
+		<div class="about-text">
+			<h2 style="font-family: 'Alkatra', cursive;">About Me</h2>
+			<h4>Hi, I'm Here To Deploy myself as web Developer</h4>
+			<p>Creative thinker to achieve modern business requirements
+				using technical solutions. Ability to develop production-ready code using HTML, CSS, Javascript and
+				React with impressive user experience.</p>
+			<div class="about-gri">
+				<div class="about-in">
+
+
+
+
+					<h5>1. Problem-Solving </h5>
+				</div>
+
+				<div class="about-in">
+					<h5>2. Decision making</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>3. Team-Work</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>4. Communication</h5>
+				</div>
+
+			</div>
+			<a href="#contact" class="btn">Contact Me</a>
+		</div>
+	</section>
+
+	<!---services--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2 style="font-family: 'Alkatra', cursive;">My Skills</h2>
+			<h4>Better Design, Better Expericences</h4>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<img src="img/html-5.png">
+
+			</div>
+
+			<div class="box">
+				<img src="img/css3.png">
+
+			</div>
+
+			<div class="box">
+				<img src="img/javascript.png">
+
+			</div>
+		
+			<div class="box">
+				<img src="img/github (1).png" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/typescript.png">
+
+			</div>
+			
+			<div class="box">
+				<img src="img/npm.png">
+
+			</div>
+			<div class="box">
+				<img src="img/mongoDb_Atlas.png" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/express.png" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/nodejs.png" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/MongoDB.png" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/postman.webp" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/nodemon.png" width="90px">
+
+			</div>
+		</div>
+	</section>
+
+	<!---portfolio--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<h2 style="font-family: 'Alkatra', cursive;">My Projects</h2>
+			<h4>Some Of My Distinguished Works</h4>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/cultfit.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Individual Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a target="_blank" href="https://sparkling-profiterole-1ff217.netlify.app/" style="color:white">Cult Fit Clone</a>&nbsp;
+					<a target="_blank" href="https://sparkling-profiterole-1ff217.netlify.app/" style="color:white"><i
+							class='bx bxl-netlify'></i></a>
+					<a target="_blank" href="https://github.com/guptag0808/ruddy-grade-7900" style="color:white"><i
+							class='bx bxl-github'></i></a>
+				</h3>
+				<p class="site-description">It is an online and offline gym service providing website for 24/7 having 130 branches in india and Fsuggest perfect plans to the users according to their
+					requirements</p>
+				<p><span style="color: rgb(51, 151, 177)" class="tech"> Tech-Stack :</span> HTML | CSS | JavaScript</p>
+			</div>
+
+			<div class="row">
+				<img src="./img/shopclues.png" width="384px" height="216px">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Individual Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a target="_blank" href="https://genuine-kataifi-d7ee9b.netlify.app" style="color:white">ShopClues.com Clone</a> &nbsp;
+					<a target="_blank" href="https://genuine-kataifi-d7ee9b.netlify.app" style="color:white"><i
+							class='bx bxl-netlify'></i></a>
+					<a target="_blank" href="https://github.com/guptag0808/shopclues"
+						style="color:white"><i class='bx bxl-github'></i></a>
+				</h3>
+
+				<p class="site-description">E-commerce website where users can buy products such as clothing, shoes,
+					handbags, watches etc </p>
+				<p><span style="color: rgb(51, 151, 177)" class="tech"> Tech-Stack :</span> HTML | CSS | JavaScript |
+					Nodejs | Express | MongoDB </p>
+			</div>
+
+			<div class="row">
+				<img src="img/skinCare.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Individual Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a target="_blank" href="https://tubular-lebkuchen-771d12.netlify.app"
+						style="color:white">SkinStore Clone</a>&nbsp;
+					<a target="_blank" href="https://tubular-lebkuchen-771d12.netlify.app" style="color:white"><i
+							class='bx bxl-netlify'></i></a>
+					<a target="_blank" href="https://github.com/guptag0808/entertaining-snails-6673" style="color:white"><i
+							class='bx bxl-github'></i></a>
+				</h3>
+
+				<p class="site-description">E-commerce website where users can buy products such as Skin product,oils,creams and suggest best product for your skin</p>
+				<p><span style="color: rgb(51, 151, 177)" class="tech"> Tech-Stack :</span>HTML | CSS |JavaScript</p>
+			</div>
+
+			<div class="row">
+				<img src="img/doller.png">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Group Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a target="_blank" href="https://gentle-twilight-b8683d.netlify.app/" style="color:white">Doller General Clone</a> &nbsp;
+					<a target="_blank" href="https://gentle-twilight-b8683d.netlify.app/" style="color:white"><i
+							class='bx bxl-netlify'></i></a>
+					<a target="_blank" href="https://github.com/guptag0808/mean-part-5754" style="color:white"><i
+							class='bx bxl-github'></i></a>
+				</h3>
+				<p class="site-description">Doller General  is an e-commerce website. This website is an online shopping
+					platform.</p>
+				<p><span style="color: rgb(51, 151, 177)" class="tech"> Tech-Stack :</span>HTML | CSS | Javascript |</p>
+			</div>
+
+		</div>
+	</section>
+	<section>
+		<div class="main-text">
+			<h2 style="font-family: 'Alkatra', cursive;">Github Stats</h2>
+			<h4>Data Never Lies</h4>
+		</div>
+		<div class="stat-main">
+			<span class="stat-section">&nbsp;<img class="stats"
+					src="https://github-readme-streak-stats.herokuapp.com/?user=mrunalibind&show_icons=true&theme=dark"
+					alt="guptag0808" /></span>
+
+			<span class="stat-section">&nbsp;<img class="stats"
+					src="https://github-readme-stats.vercel.app/api?username=guptag0808&show_icons=true&theme=dark"
+					alt="guptag0808" /></span>
+		</div>
+		<div class="calender-section">
+			<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+			</script>
+
+			<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+			<link rel="stylesheet"
+				href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+			<!-- Prepare a container for your calendar. -->
+			<div class="calendar">
+				<!-- Loading stuff -->
+				Loading the data just for you.
+			</div>
+
+			<script>
+				GitHubCalendar(".calendar", "guptag0808");
+
+				// or enable responsive functionality:
+				GitHubCalendar(".calendar", "guptag0808", { responsive: true });
+
+				// Use a proxy
+				GitHubCalendar(".calendar", "guptag0808", {
+					proxy(username) {
+						return fetch(`https://your-proxy.com/github?user=${username}`)
+					}
+				}).then(r => r.text())
+			</script>
+		</div>
+	</section>
+
+	<!---contact--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2 style="font-family: 'Alkatra', cursive;">Contact Me</h2>
+			<h4>Ready to start work with you</h4>
+			<p>It would be a great experience to work with me as a Personal,
+				then why wait, Let's start Today!</p>
+			<div class="contact-list">
+				<li><a href="#">Sasaram - Bihar</a></li>
+				<li><a href="#">mrunalibind123@gmail.com</a></li>
+				<li><a href="#">9518357461</a></li>
+			</div>
+			<div class="contact-icons">
+				<a href="https://www.linkedin.com/in/mrunali-bind-581227221/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+
+				<a href="https://github.com/mrunalibind"  target="_blank"><i class='bx bxl-github'></i></a>
+
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<img src="/img/8d4290_87b69acf4d9b4865b64628353845ec75_mv2.gif" width="500px" />
+			<!-- <form action="">
+				<input type="" placeholder="Enter Your Name" required>
+				<input type="email" placeholder="Enter Your Email" required>
+				<input type="" placeholder="Enter Your Subject">
+				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+				<input type="submit" value="Submit" class="send">
+			</form> -->
+		</div>
+	</section>
+
+
+
+	<!---scroll-top--->
+	<!-- <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a> -->
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="index.js"></script>
+
 </body>
-<script src="index.js"></script>
+
 </html>

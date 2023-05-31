@@ -76,7 +76,7 @@ section{
     color: var(--text-color);
     display: none;
 }
-.home{
+#home{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -392,10 +392,10 @@ gap: 20px;
     .about{
         flex-direction: column;
     }
-    .home{
+    #home{
         flex-direction: column;
     }
-    .home img{
+    #home img{
         margin-top: 20px;
         flex-wrap: wrap;
     }

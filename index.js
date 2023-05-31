@@ -1,3 +1,19 @@
+// ------------Navigation Bar--------------
+let menuIcon=document.querySelector("#menu-icon");
+let navbar=document.querySelector(".navbar");
+
+menuIcon.onclick=()=>{
+    menuIcon.classList.toggle("bx-x")
+    navbar.classList.toggle("active")
+}
+
+
+
+
+
+
+
+
 GitHubCalendar(".calendar", "mrunalibind");
 
     // or enable responsive functionality:
@@ -8,7 +24,8 @@ GitHubCalendar(".calendar", "mrunalibind");
        proxy (mrunalibind) {
          return fetch(`https://your-proxy.com/github?user=${mrunalibind}`)
        }
-    }).then(r => r.text())
+    })
+    // .then(r => r.text())
 
 
 
@@ -46,3 +63,15 @@ GitHubCalendar(".calendar", "mrunalibind");
 
 // let header=document.querySelector("header");
 // header.classList.toggle("sticky",window.scrollY > 100);
+
+// ----------scroll reveal--------------
+ScrollReveal({
+    reset:true,
+    distance:'80px',
+    duration:2000,
+    delay:200
+
+});
+
+ScrollReveal().reveal('.home-content, .heading', {origin:'top'})
+ScrollReveal().reveal('.home-img, .project-card, .skills-card', {origin:'bottom'})

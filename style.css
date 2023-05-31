@@ -40,6 +40,9 @@ section{
     align-items: center;
     z-index: 100;
 }
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
 .logo{
     text-decoration: none;
     font-size: 2.5rem;
@@ -89,6 +92,21 @@ section{
 span{
     color: var(--main-color);
 }
+
+/* .home-img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px; 
+    width: 850px;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+.home-img img{
+    max-width: 100%;
+    width: 400px;
+    transform: rotate(-45deg) scale(1.42);
+} */
+
 .home-content h1{
     font-size: 5.6rem;
     font-weight: 700;
@@ -282,6 +300,7 @@ span{
     margin-bottom: 20px;
     padding: 20px 20px;
     display: block;
+    
     border-radius: 10px;
     font-size: 18px;
 
@@ -294,7 +313,12 @@ span{
     padding: 10px 20px;
     width: 100px;
     background-color: #0ef;
+    cursor: pointer;
+    box-shadow: #0ef 0px 3px 8px;  
     border-radius: 10px;
+}
+.contact button:hover{
+    box-shadow: none;
 }
 .contact i{
     font-size: 30px;
@@ -328,3 +352,87 @@ font-size: 1.6rem;
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+
+@media screen and (max-width:1200px){
+    #ski{
+    grid-template-columns: repeat(3,1fr);
+gap: 20px;
+    }
+}
+@media screen and (max-width:1060px) {
+    .contact>div{
+        flex-direction: column;
+    }
+    .contact input{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #social{
+        /* border: 1px solid red; */
+        width: 50%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:1124px) {
+    .calendar{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:950px) {
+    #pro{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #ski>div{
+        width: 150px;
+    
+        }
+
+}
+@media screen and (max-width:840px) {
+    .about{
+        flex-direction: column;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .home img{
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:730px){
+#ski>div{
+    width: 100px;
+    /* height: 100px; */
+
+}
+}
+@media screen and (max-width:630px){
+    .contact input{
+    
+        margin-bottom: 20px;
+        width: 70%;
+        /* margin: auto; */
+    }
+    #social{
+        width: 70%;
+        /* font-size: 10px; */
+    }
+}
+
+/* @media (max-width:1200px) {
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:991px) {
+    .header{
+        padding: 2rem 3%;
+    }
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    .ffoter{
+        padding: 2rem3% ;
+    }
+} */

@@ -58,12 +58,10 @@ section{
     margin-left: 4rem;
 }
 .navbar{
-    /* width: 600px; */
+    
     display: flex;
-    /* border: 1px solid red; */
     top:0;
     position: sticky;
-    /* background-color: #171e28; */
 }
 #back_Imag{
     width:400px;

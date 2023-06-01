@@ -58,9 +58,12 @@ section{
     margin-left: 4rem;
 }
 .navbar{
+    /* width: 600px; */
+    display: flex;
+    /* border: 1px solid red; */
     top:0;
     position: sticky;
-    /* background-color: transparent; */
+    /* background-color: #171e28; */
 }
 #back_Imag{
     width:400px;
@@ -272,28 +275,28 @@ span{
     width: 80%;
     margin: auto;
 }
-.contact{
+#contact{
     background-color: #171e28;
    
 }
-.contact a{
+#contact a{
     color: white;
     text-decoration: none;
 }
-.contact p{
+#contact p{
     /* text-align: center; */
     justify-content: center;
     font-size: 20px;
     margin: 19px 0px;
 }
-.contact>div{
+#contact>div{
     
     width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.contact input{
+#contact input{
     border: none;
     background-color: #ffffff9f;
     width: 500px;
@@ -305,7 +308,7 @@ span{
     font-size: 18px;
 
 }
-.contact button{
+#contact button{
     border: none;
     font-size: 20px;
     display: block;
@@ -317,10 +320,11 @@ span{
     box-shadow: #0ef 0px 3px 8px;  
     border-radius: 10px;
 }
-.contact button:hover{
+#contact button:hover{
     box-shadow: none;
+    transition:ease-in-out;
 }
-.contact i{
+#contact i{
     font-size: 30px;
     /* margin-top: 15px; */
     margin-right: 20px;
@@ -360,10 +364,10 @@ gap: 20px;
     }
 }
 @media screen and (max-width:1060px) {
-    .contact>div{
+    #contact>div{
         flex-direction: column;
     }
-    .contact input{
+    #contact input{
         margin: auto;
         margin-bottom: 20px;
     }
@@ -389,7 +393,7 @@ gap: 20px;
 
 }
 @media screen and (max-width:840px) {
-    .about{
+    #about{
         flex-direction: column;
     }
     #home{
@@ -408,7 +412,7 @@ gap: 20px;
 }
 }
 @media screen and (max-width:630px){
-    .contact input{
+    #contact input{
     
         margin-bottom: 20px;
         width: 70%;
@@ -455,7 +459,7 @@ gap: 20px;
         width: 100%;
         
     }
-    .contact input{
+    #contact input{
         height: 40px;
         font-size: 15px;
     }

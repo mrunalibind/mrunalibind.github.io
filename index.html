@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mrunali Bind</title>
+    <title>Mrunali-Bind - Portfolio</title>
+    <meta name="title" content="Mrunali-Portfolio" />
+    <meta name="description" content="Hey Hii ! I'm Mrunali & this is my portfolio profile, if you are a recruiter looking for a passionate Backend Developer or Full Stack Developer please feel free to contact me & kindly go through my portfolio" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
@@ -14,11 +16,11 @@
         <a href="" class="logo">MRUNALI</a>
         <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar" id="nav-menu">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a class="nav-link home" href="#home" class="active">Home</a>
+            <a class="nav-link about" href="#about">About Me</a>
+            <a class="nav-link skills" href="#skills">Skills</a>
+            <a class="nav-link projects" href="#projects">Projects</a>
+            <a class="nav-link contact" href="#contact">Contact</a>
             <a id="resume-link-1" class="nav-link resume" id="resume-button-1" href="/images/Professional.jpg" target="_blank" onclick="window.open('https://drive.google.com/file/d/1Dg3WLZy9JsbWJNL8WhFl0QIHzsXEr8oo/view?usp=share_link')" download="Mrunali-Bind-Resume">Resume <i class='bx bxs-download'></i></a>
             
             <!-- <a href="">Resume <i class='bx bxs-download'></i></a> -->
@@ -31,7 +33,7 @@
             <h3>Hello, It's Me</h3>
             <h1 id="user-detail-name">Mrunali Bind</h1>
             <h3>And I'm a <span>Backend Developer</span></h3>
-            <p id="user-detail-intro">Creative thinker to achieve modern business requirements using technical solutions. Ability to develop production-ready code using HTML, CSS, Javascript , Nodejs, Express, MongoDB, Aws, mongoDb_Atlas with impressive user experience.</p>
+            <p>Creative thinker to achieve modern business requirements using technical solutions. Ability to develop production-ready code using HTML, CSS, Javascript , Nodejs, Express, MongoDB, Aws, mongoDb_Atlas with impressive user experience.</p>
             <a id="resume-link-2" href="/images/Professional.jpg" target="_blank" onclick="window.open('https://drive.google.com/file/d/1Dg3WLZy9JsbWJNL8WhFl0QIHzsXEr8oo/view?usp=share_link')" download="Mrunali-Bind-Resume" class="btn">Resume</a>
             
         </div>
@@ -43,13 +45,13 @@
     <!-- About Section  -->
     <section class="about section" id="about">
         
-            <div class="about-img">
-                <img class="home-img" src="images/Professional.jpg" alt="">
+            <div class="about-img" class="home-image">
+                <img class="home-img" src="images/Professional.jpg" alt="profile-pic">
             </div>
             <div class="about-content">
                 <h2 class="heading">About <span>Me</span></h2>
                 <h3>And I'm a <span>Backend Developer</span></h3>
-                <p>Creative thinker to achieve modern business requirements using technical solutions. Ability to develop production-ready code using HTML, CSS, Javascript , Nodejs, Express, MongoDB, Aws, mongoDb_Atlas with impressive user experience.</p>
+                <p id="user-detail-intro">Creative thinker to achieve modern business requirements using technical solutions. Ability to develop production-ready code using HTML, CSS, Javascript , Nodejs, Express, MongoDB, Aws, mongoDb_Atlas with impressive user experience.</p>
             </div>
         
     </section>
@@ -97,55 +99,55 @@
     
     <!-- Project Section -->
 
-    <section id="projects">
-        <h2 class="nav-link projects heading">My Projects</h2>
+    <section class="project" id="projects">
+        <h2 class="heading">My Projects</h2>
         <p class="nav-link projects" id="head">Some Of My Distinguished Works</p>
         <div class="nav-link projects" id="pro">
             <div class="project-card" class="nav-link projects">
-                <img class="nav-link projects" src="./images/Project_1.png" alt="">
-                <p class="nav-link projects" class="project-title" class="top">Fashion Hub ( Individual Project )</p>
-                <div class="nav-link projects" class="clone">
-                    <h2 class="nav-link projects">J.Crew Clone</h2>
-                    <a class="nav-link projects" class="project-deployed-link" href="https://tiny-paletas-2363db.netlify.app/" target="_blank"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
-                    <a class="nav-link projects" class="project-github-link" href="https://github.com/mrunalibind/unusual-thought-83" target="_blank"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
+                <img src="./images/Project_1.png" alt="">
+                <p class="project-title" class="top">Fashion Hub ( Individual Project )</p>
+                <div class="clone">
+                    <h2>J.Crew Clone</h2>
+                    <a class="project-deployed-link" href="https://tiny-paletas-2363db.netlify.app/" target="_blank"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
+                    <a class="project-github-link" href="https://github.com/mrunalibind/unusual-thought-83" target="_blank"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
                 </div>
-                <p class="nav-link projects" class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build in a span of 5 days.</p>
-                <p class="nav-link projects" class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript</p>
+                <p class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build in a span of 5 days.</p>
+                <p class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript</p>
             </div>
             <div class="project-card" class="nav-link projects">
-                <img class="nav-link projects" src="./images/Project_2.png" alt="">
-                <p class="nav-link projects" class="project-title" class="top">Show Stopper  ( Individual Project )</p>
-                <div class="nav-link projects" class="clone">
-                    <h2 class="nav-link projects">Souled Store Clone</h2>
-                    <a class="nav-link projects" class="project-deployed-link" href="https://timely-lebkuchen-41ac60.netlify.app/" target="_blank"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
-                    <a class="nav-link projects" class="project-github-link" href="https://github.com/mrunalibind/torpid-attack-1324" target="_blank"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
+                <img src="./images/Project_2.png" alt="">
+                <p class="project-title" class="top">Show Stopper  ( Individual Project )</p>
+                <div class="clone">
+                    <h2>Souled Store Clone</h2>
+                    <a class="project-deployed-link" href="https://timely-lebkuchen-41ac60.netlify.app/" target="_blank"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
+                    <a class="project-github-link" href="https://github.com/mrunalibind/torpid-attack-1324" target="_blank"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
                 </div>
-                <p class="nav-link projects" class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build in a span of 5 days.</p>
-                <p class="nav-link projects" class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript | NodeJS | Express | MongoDB</p>
+                <p class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build in a span of 5 days.</p>
+                <p class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript | NodeJS | Express | MongoDB</p>
             </div>
             
             <div class="project-card" class="nav-link projects">
-                <img class="nav-link projects" src="./images/Project_3.png" alt="">
-                <p class="nav-link projects" class="project-title" class="top">Fash Mart ( Collaborative Project )</p>
+                <img src="./images/Project_3.png" alt="">
+                <p class="project-title" class="top">Fash Mart ( Collaborative Project )</p>
                 
-                <div class="nav-link projects" class="clone">
-                    <h2 class="nav-link projects">Myntra Clone</h2>
-                    <a class="nav-link projects" class="project-deployed-link" href="https://startling-blini-1dbc40.netlify.app/" target="_blank"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
-                    <a class="nav-link projects" class="project-github-link" href="https://github.com/mrunalibind/mountainous-push-1678"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
+                <div class="clone">
+                    <h2>Myntra Clone</h2>
+                    <a class="project-deployed-link" href="https://startling-blini-1dbc40.netlify.app/" target="_blank"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
+                    <a class="project-github-link" href="https://github.com/mrunalibind/mountainous-push-1678"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
                 </div>
-                <p class="nav-link projects" class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build by a 5 members.</p>
-                <p class="nav-link projects" class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript</p>
+                <p class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build by a 5 members.</p>
+                <p class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript</p>
             </div>
             <div class="project-card" class="nav-link projects">
-                <img class="nav-link projects" src="./images/Project_4.png" alt="">
-                <p class="nav-link projects" class="project-title" class="top">Apni Dukan ( Collaborative Project )</p>
-                <div class="nav-link projects" class="clone">
-                    <h2 class="nav-link projects">Dollar General Clone</h2>
-                    <a class="nav-link projects" class="project-deployed-link" href="https://gentle-twilight-b8683d.netlify.app/"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
-                    <a class="nav-link projects" class="project-github-link" href="https://github.com/mrunalibind/mean-part-5754" target="_blank"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
+                <img src="./images/Project_4.png" alt="">
+                <p class="project-title" class="top">Apni Dukan ( Collaborative Project )</p>
+                <div class="clone">
+                    <h2>Dollar General Clone</h2>
+                    <a class="project-deployed-link" href="https://gentle-twilight-b8683d.netlify.app/"><img src="./images/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites.-24.png" alt=""></a>
+                    <a class="project-github-link" href="https://github.com/mrunalibind/mean-part-5754" target="_blank"><img style="color: white;" src="./images/icons8-github-24 (1).png" alt=""></a>
                 </div>
-                <p class="nav-link projects" class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build by a 5 members.</p>
-                <p class="nav-link projects" class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript</p>
+                <p class="project-description" class="data">It is an e-commerce website, where you can buy cloths and many more things. Build by a 5 members.</p>
+                <p class="project-tech-stack"><span>Tech-Stack: </span>HTML | CSS | JavaScript</p>
             </div>
         </div>
         <br><br>

@@ -287,14 +287,8 @@ span{
     font-size: 20px;
     margin: 19px 0px;
 }
-#contact>div{
-    
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-#contact input{
+
+/* #contact input{
     border: none;
     background-color: #ffffff9f;
     width: 500px;
@@ -321,7 +315,7 @@ span{
 #contact button:hover{
     box-shadow: none;
     transition:ease-in-out;
-}
+} */
 #contact i{
     font-size: 30px;
     /* margin-top: 15px; */
@@ -416,10 +410,10 @@ gap: 20px;
         width: 70%;
         /* margin: auto; */
     }
-    #social{
-        width: 70%;
+     #social{
+        width: 100%;
         /* font-size: 10px; */
-    }
+    } 
     .footer{
         flex-direction: column-reverse;
     }
@@ -428,12 +422,12 @@ gap: 20px;
     }
 }
 
-/* @media (max-width:1200px) {
+ @media (max-width:1200px) {
     html{
         font-size: 55%;
     }
 }
-@media (max-width:991px) {
+ @media (max-width:991px) {
     .header{
         padding: 2rem 3%;
     }
@@ -441,9 +435,9 @@ gap: 20px;
         padding: 10rem 3% 2rem;
     }
     .footer{
-        padding: 2rem3% ;
+        padding: 2rem 3% ;
     }
-} */
+} 
 
 @media (max-width:868px){
     #menu-icon{

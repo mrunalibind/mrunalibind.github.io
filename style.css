@@ -119,23 +119,55 @@ span{
     margin-right: 60px;
 }
 
+
+
+
+
+
+
+
+
+
 .btn{
-    margin-top: 20px;
+    margin-top: 40px;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: #0ef 0px 3px 8px;    
     font-size: 1.6rem;
+    font-weight: 600;
+    
+}
+#resume-button-2{
+    margin-top: 20px;
+    width: 20px;
+    border: none;
+    background: none;
+}
+#resume-button-1{
+    
+    
+    border: none;
+    background: none;
+}
+.btn span{
     color: var(--second-bg-color);
     letter-spacing: .1rem;
-    font-weight: 600;
-    transition: .5s ease;
+   
 }
 .btn:hover{
     box-shadow: none;
+    transition: .5s ease;
 }
+
+
+
+
+
+
+
 
 .about{
     background-color: #171e28;

@@ -82,7 +82,14 @@ section{
     justify-content: center;
     align-items: center;
 }
-
+#resume-button-1{
+    background-color: transparent;
+    border: none;
+}
+#home #resume-button-2{
+    background-color: transparent;
+    border: none;
+}
 .home-content h3{
     font-size: 3.2rem;
     font-weight:700 ;
